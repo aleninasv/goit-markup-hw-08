@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ul,
+  ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  img {
+    display: block;
+  }
+  .container {
+    margin: 0 auto;
+    border: 0px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  }
+  body ul {
+    list-style: none;
+  }
+  body a {
+    text-decoration: none;
+  }
