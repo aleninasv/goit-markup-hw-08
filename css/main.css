@@ -70,4 +70,21 @@ body a {
   width: 1px !important;
   overflow: hidden;
 }
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section__hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/main-page/mobile/bg-main-mobile.jpg), linear-gradient(#c4c4c4, #c4c4c4);
+  background-position: center;
+  display: block;
+  height: 400px;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpl), (min-resolution: 2dppx) {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/main-page/mobile/bg-main-mobile@2x.jpg), linear-gradient(#c4c4c4, #c4c4c4);
+}
 /*# sourceMappingURL=main.css.map */
