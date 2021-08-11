@@ -1,0 +1,23 @@
+.logo__header {
+    margin-right: 93px;
+    border: 0px;
+    margin-bottom: -4px;
+  }
+.logo,
+.logo__footer {
+@include font (26px, 700, 28.18px, 0.03em);
+font-family: "Raleway", sans-serif;
+}
+.logo_accent {
+color: var(--accent-color);
+}
+.logo_themelight {
+color: #000000;
+}
+.logo_themedark {
+color: #ffffff;
+}
+.logo__footer {
+  display: block;
+  margin-bottom: 20px;
+}
