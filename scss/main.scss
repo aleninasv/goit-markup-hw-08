@@ -1,5 +1,10 @@
 @import"./base/resetdefaults";
 @import"./utils/variables";
 @import"./utils/visuallyhidden";
-@import"./base/container";
+@import"./utils/mixins";
 @import"./layout/herosection";
+@import"./layout/featuressection";
+@import"./components/button-order";
+@import"./components/backdrop";
+@import"./components/modal-window";
+@import"./components/modal-form";
