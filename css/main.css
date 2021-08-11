@@ -135,16 +135,35 @@ body a {
   }
 }
 
+.button__order {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: var(--accent-color);
+  color: var(--accent-font-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title__section {
+  color: var(--title-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .section__features {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-@media screen and (min-width: 1200px) {
-  .section__features {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
 }
 
 .features__list-item {
@@ -174,6 +193,13 @@ body a {
 }
 
 @media screen and (min-width: 1200px) {
+  .section__features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .container__features {
+    max-width: 1200px;
+  }
   .features__list {
     display: flex;
     flex-direction: row;
@@ -226,20 +252,49 @@ body a {
   text-align: left;
 }
 
-.button__order {
-  display: block;
-  width: 200px;
-  height: 50px;
-  background-color: var(--accent-color);
-  color: var(--accent-font-color);
-  font-size: 16px;
+@media screen and (max-width: 1199px) {
+  .section__services {
+    display: none;
+  }
+}
+
+.container__services {
+  max-width: 1200px;
+}
+
+.section__services {
+  padding-bottom: 94px;
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servises__link-wrapper {
+  position: relative;
+}
+
+.services__label {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  margin-left: auto;
-  margin-right: auto;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--accent-font-color);
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.services__image {
+  width: 370px;
+  height: 294px;
 }
 
 .backdrop {

@@ -2,12 +2,6 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-@media screen and (min-width: 1200px) {
-    .section__features {
-        padding-top: 94px;
-        padding-bottom: 94px;
-      }
-}
 .features__list-item {
     display: flex;
     flex-direction: column;
@@ -32,6 +26,13 @@
     }
 }
 @media screen and (min-width: 1200px) {
+  .section__features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .container__features {
+    max-width: 1200px;
+  }
     .features__list {
     display: flex;
     flex-direction: row;
